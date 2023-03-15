@@ -1,0 +1,237 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libDBoW2.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 143,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -fopenmp  -frtti -fopenmp -static-openmp -O2 -DNDEBUG  -fPIC"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB/include/CameraModels"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB/Thirdparty/Sophus"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB/Thirdparty/Sophus/sophus"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/Eigen/eigen-3.4.0"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/Eigen/eigen-3.4.0/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/boost/boost-1_72_0"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/boost/boost-1_72_0/boost"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/openssl/openssl-1.0.2s"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/openssl/openssl-1.0.2s/openssl"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/opencv/opencv-4.5.5/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				3,
+				5,
+				7,
+				10,
+				12
+			],
+			"sysroot" : 
+			{
+				"path" : "/Users/cristiano.roman/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+			}
+		}
+	],
+	"id" : "DBoW2::@6890427a1f51a3e7e1df",
+	"name" : "DBoW2",
+	"nameOnDisk" : "libDBoW2.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				3,
+				5,
+				7,
+				10,
+				12
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				4,
+				6,
+				8,
+				9,
+				11,
+				13
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/BowVector.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/BowVector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/FClass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/FORB.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/FORB.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/FeatureVector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/ScoringObject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/DBoW2/DUtils/Random.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/DBoW2/DUtils/Random.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/DBoW2/DUtils/Timestamp.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/DBoW2/DUtils/Timestamp.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

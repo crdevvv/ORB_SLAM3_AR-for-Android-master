@@ -1,0 +1,86 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DBoW2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DBoW2-Release-e1aa6ab7c32437184f48.json",
+					"name" : "DBoW2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ORBSLAM3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ORBSLAM3-Release-b0e9964191886d4680f6.json",
+					"name" : "ORBSLAM3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "g2o::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-g2o-Release-fdd7b2c555202d97e66b.json",
+					"name" : "g2o",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "native-lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-native-lib-Release-b5efc66fd6ab211de529.json",
+					"name" : "native-lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/.cxx/Debug/2ss3e5wy/arm64-v8a",
+		"source" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

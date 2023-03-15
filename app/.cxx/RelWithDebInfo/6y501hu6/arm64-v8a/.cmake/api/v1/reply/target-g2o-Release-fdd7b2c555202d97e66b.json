@@ -1,0 +1,848 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libg2o.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -fopenmp  -frtti -fopenmp -static-openmp -O2 -DNDEBUG  -fPIC"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB/include/CameraModels"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB/Thirdparty/Sophus"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB/Thirdparty/Sophus/sophus"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/Eigen/eigen-3.4.0"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/Eigen/eigen-3.4.0/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/boost/boost-1_72_0"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/boost/boost-1_72_0/boost"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/openssl/openssl-1.0.2s"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/openssl/openssl-1.0.2s/openssl"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/opencv/opencv-4.5.5/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				9,
+				13,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				30,
+				33,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				67,
+				68,
+				77,
+				79,
+				81,
+				85,
+				89,
+				91,
+				93
+			],
+			"sysroot" : 
+			{
+				"path" : "/Users/cristiano.roman/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+			}
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fopenmp -static-openmp -O2 -DNDEBUG  -fPIC"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB/include/CameraModels"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB/Thirdparty/Sophus"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB/Thirdparty/Sophus/sophus"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/Eigen/eigen-3.4.0"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/Eigen/eigen-3.4.0/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/boost/boost-1_72_0"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/boost/boost-1_72_0/boost"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/openssl/openssl-1.0.2s"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/openssl/openssl-1.0.2s/openssl"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/opencv/opencv-4.5.5/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				75
+			],
+			"sysroot" : 
+			{
+				"path" : "/Users/cristiano.roman/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+			}
+		}
+	],
+	"id" : "g2o::@6890427a1f51a3e7e1df",
+	"name" : "g2o",
+	"nameOnDisk" : "libg2o.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				10,
+				11,
+				12,
+				14,
+				15,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				29,
+				31,
+				32,
+				34,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				63,
+				64,
+				65,
+				66,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				76,
+				78,
+				80,
+				82,
+				83,
+				84,
+				86,
+				87,
+				88,
+				90,
+				92,
+				94
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				9,
+				13,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				30,
+				33,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				67,
+				68,
+				75,
+				77,
+				79,
+				81,
+				85,
+				89,
+				91,
+				93
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/base_binary_edge.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/base_binary_edge.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/base_edge.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/base_multi_edge.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/base_multi_edge.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/base_unary_edge.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/base_unary_edge.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/base_vertex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/base_vertex.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/batch_stats.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/batch_stats.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/block_solver.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/block_solver.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/cache.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/cache.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/creators.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/eigen_types.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/estimate_propagator.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/estimate_propagator.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/factory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/factory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/hyper_dijkstra.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/hyper_graph.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/hyper_graph.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/hyper_graph_action.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/jacobian_workspace.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/linear_solver.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/matrix_operations.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/matrix_structure.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/matrix_structure.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/openmp_mutex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimizable_graph.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimizable_graph.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm_dogleg.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm_dogleg.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm_gauss_newton.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm_gauss_newton.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm_property.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/parameter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/parameter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/parameter_container.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/parameter_container.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/robust_kernel.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/robust_kernel.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/robust_kernel_factory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/robust_kernel_impl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/solver.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/solver.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/sparse_block_matrix.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/sparse_block_matrix_ccs.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/sparse_block_matrix_diagonal.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/sparse_block_matrix_test.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/core/sparse_optimizer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/solvers/linear_solver_dense.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/solvers/linear_solver_eigen.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/color_macros.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/macros.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/misc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/os_specific.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/os_specific.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/property.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/property.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/string_tools.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/string_tools.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/timeutil.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/stuff/timeutil.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/types/se3_ops.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/types/se3_ops.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/types/se3mat.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/types/se3mat.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/types/se3quat.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/types/sim3.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/types/types_sba.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/types/types_sba.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main/cpp/ORB/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

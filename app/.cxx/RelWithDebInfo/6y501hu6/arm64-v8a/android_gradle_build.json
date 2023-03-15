@@ -1,0 +1,61 @@
+{
+  "buildFiles": [
+    "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/cristiano.roman/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/.cxx/RelWithDebInfo/6y501hu6/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/cristiano.roman/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/.cxx/RelWithDebInfo/6y501hu6/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "DBoW2::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "DBoW2",
+      "output": "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/.cxx/RelWithDebInfo/6y501hu6/arm64-v8a/libDBoW2.a"
+    },
+    "ORBSLAM3::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ORBSLAM3",
+      "output": "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/.cxx/RelWithDebInfo/6y501hu6/arm64-v8a/libORBSLAM3.a"
+    },
+    "g2o::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "g2o",
+      "output": "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/.cxx/RelWithDebInfo/6y501hu6/arm64-v8a/libg2o.a"
+    },
+    "native-lib::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "native-lib",
+      "output": "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/build/intermediates/cxx/RelWithDebInfo/6y501hu6/obj/arm64-v8a/libnative-lib.so",
+      "runtimeFiles": [
+        "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/jniLibs/arm64-v8a/libopencv_java4.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/cristiano.roman/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/Users/cristiano.roman/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp",
+    "cc"
+  ]
+}

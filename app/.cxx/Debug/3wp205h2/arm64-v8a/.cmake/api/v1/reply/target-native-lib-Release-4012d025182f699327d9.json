@@ -1,0 +1,268 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/build/intermediates/cxx/Debug/3wp205h2/obj/arm64-v8a/libnative-lib.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 191,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 247,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -fopenmp  -frtti -fopenmp -static-openmp -O2 -DNDEBUG  -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "native_lib_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB/include/CameraModels"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB/Thirdparty/Sophus"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/ORB/Thirdparty/Sophus/sophus"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/Eigen/eigen-3.4.0"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/Eigen/eigen-3.4.0/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/boost/boost-1_72_0"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/boost/boost-1_72_0/boost"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/openssl/openssl-1.0.2s"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/openssl/openssl-1.0.2s/openssl"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/src/main/cpp/opencv/opencv-4.5.5/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			],
+			"sysroot" : 
+			{
+				"path" : "/Users/cristiano.roman/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "g2o::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "DBoW2::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ORBSLAM3::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "native-lib::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/Users/cristiano.roman/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/liblog.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libORBSLAM3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../../../src/main/jniLibs/arm64-v8a/libopencv_java4.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libDBoW2.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libg2o.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../src/main/jniLibs/arm64-v8a/libboost_1_72_0/libboost_system.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../src/main/jniLibs/arm64-v8a/libboost_1_72_0/libboost_serialization.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../src/main/jniLibs/arm64-v8a/libopenssl-1.0.2s/libssl.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../../src/main/jniLibs/arm64-v8a/libopenssl-1.0.2s/libcrypto.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/Users/cristiano.roman/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+		}
+	},
+	"name" : "native-lib",
+	"nameOnDisk" : "libnative-lib.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/native-lib.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/Plane.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/Frame.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/Marker.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/Process.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main/cpp/Camera.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

@@ -1,0 +1,1 @@
+ninja: Entering directory `/Users/cristiano.roman/Downloads/ORB_SLAM3_AR-for-Android-master/app/.cxx/Debug/2ss3e5wy/arm64-v8a'
